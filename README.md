@@ -21,8 +21,8 @@ Hello! I’m Janidu Kalhara, a passionate Software Engineer from Sri Lanka.
 I specialize in web development, backend systems, and data-driven solutions, with a touch of creativity for UI/UX.  
 
 - 📍 Based in Mount Lavinia, Sri Lanka  
-- 🛠️ Skilled in PHP, Python, JavaScript, HTML, CSS, SQL  
-- 🌱 Currently learning React.js, Machine Learning, and system design  
+- 🛠️ Skilled in PHP, Python, JavaScript, HTML, CSS, SQL, Figma 
+- 🌱 Currently learning React.js, Wordpress, and system design  
 - 🤝 Open to collaborations on AI, automation, and dashboard projects  
 
 </details>
@@ -41,48 +41,47 @@ I specialize in web development, backend systems, and data-driven solutions, wit
 </p>
 
 ---
-
 ## 🚀 Featured Projects
 <details>
 <summary>Scroll to see my highlighted work</summary>
 
 <div style="overflow-x:auto; white-space:nowrap; padding: 10px 0;">
-  <!-- Project Card Example with Hover -->
-  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:rgba(255,255,255,0.05); backdrop-filter:blur(10px); width:300px; transition: transform 0.3s, box-shadow 0.3s;" 
-       onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)'" 
-       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)'">
-    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="300" /><br/>
-    <div style="padding:10px; text-align:center;">
-      <strong>💊 Medical Prescription Uploader</strong><br/>
-      Two-role PHP app (User/Pharmacy) with image uploads, quotes, and email notifications.<br/>
-      <a href="#" style="color:#6EE7F9; text-decoration:none; font-weight:bold;">🔗 View Project</a>
-    </div>
+
+  <!-- Project 1 -->
+  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:#1e1e2f; width:300px; color:white; text-align:center; padding:10px;">
+    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="300" alt="Medical Project" /><br/>
+    <strong>💊 Medical Prescription Uploader</strong><br/>
+    <a href="#" style="color:#6EE7F9; text-decoration:none; font-weight:bold;">🔗 View Project</a><br/>
+    <p style="font-size:14px; color:#ccc; margin-top:5px;">
+      Two-role PHP app (User/Pharmacy) with image uploads, quotes, and email notifications.
+    </p>
   </div>
 
-  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:rgba(255,255,255,0.05); backdrop-filter:blur(10px); width:300px; transition: transform 0.3s, box-shadow 0.3s;" 
-       onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)'" 
-       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)'">
-    <img src="https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif" width="300" /><br/>
-    <div style="padding:10px; text-align:center;">
-      <strong>🚍 Public Transport Optimizer</strong><br/>
-      Big-data analytics platform to improve schedules, routes, and on-time performance.<br/>
-      <a href="#" style="color:#FBBF24; text-decoration:none; font-weight:bold;">🔗 View Project</a>
-    </div>
+  <!-- Project 2 -->
+  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:#1e1e2f; width:300px; color:white; text-align:center; padding:10px;">
+    <img src="https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif" width="300" alt="Transport Project" /><br/>
+    <strong>🚍 Public Transport Optimizer</strong><br/>
+    <a href="#" style="color:#FBBF24; text-decoration:none; font-weight:bold;">🔗 View Project</a><br/>
+    <p style="font-size:14px; color:#ccc; margin-top:5px;">
+      Big-data analytics platform to improve schedules, routes, and on-time performance.
+    </p>
   </div>
 
-  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:rgba(255,255,255,0.05); backdrop-filter:blur(10px); width:300px; transition: transform 0.3s, box-shadow 0.3s;" 
-       onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)'" 
-       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)'">
-    <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="300" /><br/>
-    <div style="padding:10px; text-align:center;">
-      <strong>🎬 AI Anime Story Generator</strong><br/>
-      Prompt-to-scene pipeline for short, viral AI-generated anime stories.<br/>
-      <a href="#" style="color:#34D399; text-decoration:none; font-weight:bold;">🔗 View Project</a>
-    </div>
+  <!-- Project 3 -->
+  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:#1e1e2f; width:300px; color:white; text-align:center; padding:10px;">
+    <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="300" alt="Anime Story Project" /><br/>
+    <strong>🎬 AI Anime Story Generator</strong><br/>
+    <a href="#" style="color:#34D399; text-decoration:none; font-weight:bold;">🔗 View Project</a><br/>
+    <p style="font-size:14px; color:#ccc; margin-top:5px;">
+      Prompt-to-scene pipeline for short, viral AI-generated anime stories.
+    </p>
   </div>
+
 </div>
 
 </details>
+
+
 
 ---
 
