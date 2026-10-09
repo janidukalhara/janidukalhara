@@ -22,7 +22,7 @@
 </picture>
 
 <details>
-<summary><b>About me &amp; my toolkit</b> — readable text version</summary>
+<summary><b>About me</b> — readable text version</summary>
 
 I'm **Janidu Kalhara**, a software engineering graduate from **Sri Lanka**. I build full-stack applications with thoughtful interfaces, practical APIs, and AI features.
 
@@ -30,15 +30,6 @@ I'm **Janidu Kalhara**, a software engineering graduate from **Sri Lanka**. I bu
 Kingston University, UK · via ESOFT, Sri Lanka
 
 My projects span computer vision, prescription workflows, e-commerce, and sustainability. I enjoy taking an idea through the whole stack: **interface → API → data → useful results**.
-
-| Focus | Technologies |
-| :--- | :--- |
-| Languages | TypeScript, JavaScript, Python, C#, PHP |
-| Frontend | React, Next.js, Tailwind CSS |
-| Backend | Node.js, Express, FastAPI, Laravel, .NET |
-| Data | PostgreSQL, MySQL, MongoDB |
-| AI integrations | YOLO, OpenCV, OCR/NLP, Gemini |
-| Tools | Git, GitHub, Postman, Figma |
 
 **Open to software engineering internships, junior developer roles, and collaborations.**
 
@@ -115,6 +106,22 @@ My digital Vesak experience · **1st place, ESU Digital Vesak Lantern Competitio
 
 </details>
 
+## My toolkit
+
+<p align="center"><b>THE STACK BEHIND THE PROJECTS</b></p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="assets/tech-stack.svg" width="560" alt="React, Next.js, TypeScript, JavaScript, Tailwind, Node.js, Express, Python, FastAPI, PHP, Laravel, C#, .NET, PostgreSQL, MySQL, MongoDB, Git, GitHub, Figma, and Vite">
+  </a>
+</p>
+
+<p align="center">
+  <b>Frontend</b> · React / Next.js / TypeScript / Tailwind<br>
+  <b>Backend</b> · Node.js / Express / FastAPI / Laravel / .NET<br>
+  <b>Data &amp; AI</b> · SQL / MongoDB / YOLO / OpenCV / Gemini
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## GitHub at a glance
 
 <a href="https://github.com/janidukalhara?tab=repositories"><img src="assets/github-snapshot.svg" width="100%" alt="Public GitHub repository snapshot on 9 October 2026: 10 public repositories; TypeScript is the primary language of 5 repositories, JavaScript of 3, and Java of 1."></a>
@@ -137,11 +144,11 @@ Have a role, project, or idea that fits my work? I'd love to hear about it.
 
 <p align="center"><sub>Built with curiosity. Powered by code. Made in Sri Lanka. 🇱🇰</sub></p>
 
-## Every commit counts
+## Contribution arcade
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/janidukalhara/janidukalhara/output/github-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/janidukalhara/janidukalhara/output/github-snake.svg" width="100%" alt="Animated snake eating the squares of my GitHub contribution calendar.">
+  <img src="https://raw.githubusercontent.com/janidukalhara/janidukalhara/output/github-snake.svg" width="100%" alt="Emerald contribution snake in an arcade terminal, collecting my real GitHub activity squares.">
 </picture>
 
 <p align="center"><sub>My contribution graph, in motion · refreshed every 12 hours.</sub></p>

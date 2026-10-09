@@ -10,7 +10,7 @@ The first version was too restrained for Janidu's preference. The current versio
 - The former standalone typing GIF has been removed from the README. The role now types inside the terminal section.
 - Six project illustrations animate scanning, heartbeat traces, floating shapes, bar charts, and circuit details.
 - `assets/divider.svg` and the social buttons add smaller supporting animations.
-- The toolkit is integrated into the terminal, with a readable Markdown alternative. React and Python silhouette masks derive from Skill Icons; see `skill-icons-LICENSE.txt`.
+- A separate toolkit follows the selected projects and reuses the original local Skill Icons board. The terminal also retains its compact skills readout. React and Python silhouette masks derive from Skill Icons; see `skill-icons-LICENSE.txt`.
 - `assets/github-snapshot.svg` contains a dated, real public-repository snapshot, not invented contribution or streak data. Refresh it when needed; it is not a live widget.
 - Run `python scripts/generate_visuals.py` with Pillow installed to regenerate the original motion assets. The icon board and dated repository snapshot are maintained separately. The script needs DejaVu Sans Mono on Linux or Consolas on Windows.
 - SVG animations stop under `prefers-reduced-motion: reduce`. The main name, project labels, and contact destinations remain readable without animation.
@@ -73,3 +73,7 @@ These sources informed the layout; they do not establish a universal 2026 design
 ## Optional profile settings
 
 GitHub's pinned repositories and account bio are separate from this README. Good pin candidates are Culinary Assistant, MediLink, Nexus J Commerce, TerraMind Analytics, eScrap-Link, and OEH Traders. Use the profile's **Customize your pins** control if desired.
+
+## Contribution arcade refresh
+
+`scripts/style_snake.py` wraps freshly generated contribution SVGs in a themed arcade terminal. It preserves the real contribution cells and route, corrects the snake color, adds a bright head and subtle glow, provides an activity legend, and runs all animations at a synchronized 85% duration. Reduced-motion preferences show a static calendar. The script uses only Python's standard library and runs before publishing the output branch. Checkout is pinned and does not persist credentials.

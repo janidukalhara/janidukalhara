@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/snake.yml
+      - scripts/style_snake.py
 
 permissions:
   contents: read
@@ -23,14 +24,22 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Check out profile renderer
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+
       - name: Generate light and dark contribution snakes
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=0891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
+            dist/github-snake.svg?palette=github-light&color_snake=%23059669&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2334D399&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
+
+      - name: Style contribution arcade
+        run: python3 scripts/style_snake.py dist
 
       - name: Publish generated SVGs to output branch
         uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
