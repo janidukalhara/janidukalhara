@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="64" viewBox="0 0 520 64" role="img" aria-labelledby="title desc">
+<title id="title">Nexus J Commerce</title><desc id="desc">Full-Stack Commerce</desc>
+<rect width="520" height="64" rx="12" fill="#101b2c"/>
+<rect x="0" y="12" width="3" height="40" rx="1.5" fill="#c5a5fb"/>
+<text x="20" y="38" fill="#c5a5fb" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing=".6">03 / FULL-STACK COMMERCE</text>
+
+<g transform="translate(466 13) scale(.9)" fill="none" stroke="#c5a5fb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 3L36 12v17L20 38 4 29V12zM4 12l16 9 16-9M20 21v17M12 7l16 9"/></g>
+</svg>

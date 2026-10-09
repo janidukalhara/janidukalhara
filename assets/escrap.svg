@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="64" viewBox="0 0 520 64" role="img" aria-labelledby="title desc">
+<title id="title">eScrap-Link</title><desc id="desc">Circular Economy</desc>
+<rect width="520" height="64" rx="12" fill="#101b2c"/>
+<rect x="0" y="12" width="3" height="40" rx="1.5" fill="#f2ce89"/>
+<text x="20" y="38" fill="#f2ce89" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing=".6">05 / CIRCULAR ECONOMY</text>
+
+<g transform="translate(466 13) scale(.9)" fill="none" stroke="#f2ce89" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="22" height="22" rx="4"/><path d="M15 2v7M25 2v7M15 31v7M25 31v7M2 15h7M2 25h7M31 15h7M31 25h7"/><rect x="15" y="15" width="10" height="10" rx="2"/></g>
+</svg>

@@ -1,117 +1,121 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Hi%20I'm%20Janidu%20Kalhara&fontAlign=50&fontAlignY=40&color=0:6EE7F9,100:8B5CF6&desc=Software%20Engineer&descAlign=50&descAlignY=65"/>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+    <img src="assets/header-dark.svg" width="100%" alt="Janidu Kalhara — Full-Stack Software Engineer and AI/ML Enthusiast. Building useful software, from interface to intelligence.">
+  </picture>
 </p>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&center=true&vCenter=true&width=650&lines=Building+clean+experiences+with+code;Turning+data+into+decisions;Shipping+small+things+that+matter" alt="typing svg" />
+  <a href="#selected-projects">Selected projects</a> &nbsp; / &nbsp;
+  <a href="#my-toolkit">My toolkit</a> &nbsp; / &nbsp;
+  <a href="mailto:janidukalhara99@gmail.com">Email me</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/janidu-perera/">LinkedIn</a>
 </p>
 
-<p align="center">
-  <a href="mailto:janidukalhara99@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ef4444?logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/janidu-perera/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/janidukalhara?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Portfolio-111827?logo=github&logoColor=white" /></a>
-</p>
+## Hi, I'm Janidu.
 
----
+<img align="right" src="assets/janidu.jpg" width="132" alt="Portrait of Janidu Kalhara">
 
-## 👤 About Me
+I'm a software engineering graduate based in **Sri Lanka**, building web applications that connect thoughtful interfaces, practical backend systems, and AI.
+
+**BSc (Hons) Computer Science (Software Engineering) — First Class**  
+Kingston University, UK · via ESOFT, Sri Lanka
+
+My projects span computer vision, prescription workflows, e-commerce, and sustainability. I enjoy taking an idea through the whole stack: **interface → API → data → useful results**.
+
+**Open to software engineering internships, junior developer roles, and collaborations.**
+
+<br clear="right">
+
+## Selected projects
+
+Explore the code, the problem, and the implementation.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/janidukalhara/Culinary-Assistant"><img src="assets/culinary.svg" width="100%" alt="01 — Culinary Assistant · Computer vision"></a>
+<h3><a href="https://github.com/janidukalhara/Culinary-Assistant">Culinary Assistant</a></h3>
+<p>Turn a fridge photo into detected ingredients and recipe ideas. YOLO inference returns bounding boxes and confidence scores through a FastAPI service.</p>
+<p><sub><b>React · TypeScript · Python · FastAPI · YOLO · OpenCV</b></sub></p>
+<p><a href="https://github.com/janidukalhara/Culinary-Assistant">Explore repository ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/janidukalhara/medilink"><img src="assets/medilink.svg" width="100%" alt="02 — MediLink · Healthcare workflows"></a>
+<h3><a href="https://github.com/janidukalhara/medilink">MediLink</a></h3>
+<p>A prescription management project connecting patients and pharmacies, with OCR/NLP processing, quotation comparison, and role-based dashboards.</p>
+<p><sub><b>React · TypeScript · Express · MongoDB · FastAPI</b></sub></p>
+<p><a href="https://github.com/janidukalhara/medilink">Explore repository ↗</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/janidukalhara/Nexus-J-Commerce"><img src="assets/nexus.svg" width="100%" alt="03 — Nexus J Commerce · Full-stack commerce"></a>
+<h3><a href="https://github.com/janidukalhara/Nexus-J-Commerce">Nexus J Commerce</a></h3>
+<p>A fashion storefront with product filtering, variants, carts, wishlists, reviews, and order workflows, backed by a typed API and relational data.</p>
+<p><sub><b>React · TypeScript · Express · PostgreSQL · Drizzle</b></sub></p>
+<p><a href="https://github.com/janidukalhara/Nexus-J-Commerce">Explore repository ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/janidukalhara/TerraMind-Analytics"><img src="assets/terramind.svg" width="100%" alt="04 — TerraMind Analytics · Sustainability analytics"></a>
+<h3><a href="https://github.com/janidukalhara/TerraMind-Analytics">TerraMind Analytics</a></h3>
+<p>A municipal waste analytics prototype for Sri Lanka, with zone-risk views, event analysis, and charts. Integrates Gemini with a simulated fallback.</p>
+<p><sub><b>React · TypeScript · Express · PostgreSQL · Recharts</b></sub></p>
+<p><a href="https://github.com/janidukalhara/TerraMind-Analytics">Explore repository ↗</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/janidukalhara/eScrap-Link"><img src="assets/escrap.svg" width="100%" alt="05 — eScrap-Link · Circular economy"></a>
+<h3><a href="https://github.com/janidukalhara/eScrap-Link">eScrap-Link</a></h3>
+<p>An electronic scrap marketplace with image-based device analysis, suggested salvageable components, listings, and component bounties.</p>
+<p><sub><b>React · TypeScript · Express · PostgreSQL · Gemini</b></sub></p>
+<p><a href="https://github.com/janidukalhara/eScrap-Link">Explore repository ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/janidukalhara/OEH-TRADERS"><img src="assets/oeh.svg" width="100%" alt="06 — OEH Traders · Product and quotation workflows"></a>
+<h3><a href="https://github.com/janidukalhara/OEH-TRADERS">OEH Traders</a></h3>
+<p>A product catalogue and quotation application with customer and dealer accounts, shopping carts, and administrative workflows.</p>
+<p><sub><b>React · JavaScript · Python · FastAPI · MongoDB</b></sub></p>
+<p><a href="https://github.com/janidukalhara/OEH-TRADERS">Explore repository ↗</a></p>
+</td>
+</tr>
+</table>
+
+**Creative highlight — [Digital Vesak](https://digital-vesak.vercel.app/)**  
+My digital Vesak experience · **1st place, ESU Digital Vesak Lantern Competition**.
+
 <details>
-<summary>Click to expand</summary>
+<summary><b>Inside the engineering</b> — a closer look at three projects</summary>
 
-Hello! I’m Janidu Kalhara, a passionate Software Engineer from Sri Lanka.  
-I specialize in web development, backend systems, and data-driven solutions, with a touch of creativity for UI/UX.  
-
-- 📍 Based in Mount Lavinia, Sri Lanka  
-- 🛠️ Skilled in PHP, Python, JavaScript, HTML, CSS, SQL, Figma 
-- 🌱 Currently learning React.js, Wordpress, and system design  
-- 🤝 Open to collaborations on AI, automation, and dashboard projects  
+- **Culinary Assistant:** image upload → YOLO detection → annotated results → ingredient extraction → Gemini recipe suggestions. Supports pretrained detection modes and a custom-training pipeline.
+- **MediLink:** a React frontend, Express application API, and separate Python AI service keep the interface, business workflows, and document processing distinct.
+- **Nexus J Commerce:** a TypeScript workspace with PostgreSQL/Drizzle, Zod validation, and an OpenAPI-generated React API client.
 
 </details>
 
----
+## My toolkit
 
-## 🧰 Tech Toolbox
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,python,js,html,css,react,mysql,git,github,figma&theme=light" />
-</p>
+| Area | Technologies I use |
+| :--- | :--- |
+| **Interfaces** | React, Next.js, TypeScript, JavaScript, Tailwind CSS |
+| **APIs & applications** | Node.js, Express, Python, FastAPI, PHP, Laravel, C# / .NET |
+| **Data** | PostgreSQL, MySQL, MongoDB, SQL Server, Drizzle ORM |
+| **AI integration** | YOLO, OpenCV, OCR/NLP workflows, Gemini API |
+| **Development & design** | Git, GitHub, Postman, Figma, Vite |
 
----
+## What I'm focused on
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="3D Divider" width="100%" />
-</p>
-
----
-## 🚀 Featured Projects
-<details>
-<summary>Scroll to see my highlighted work</summary>
-
-<div style="overflow-x:auto; white-space:nowrap; padding: 10px 0;">
-
-  <!-- Project 1 -->
-  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:#1e1e2f; width:300px; color:white; text-align:center; padding:10px;">
-    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="300" alt="Medical Project" /><br/>
-    <strong>💊 Medical Prescription Uploader</strong><br/>
-    <a href="#" style="color:#6EE7F9; text-decoration:none; font-weight:bold;">🔗 View Project</a><br/>
-    <p style="font-size:14px; color:#ccc; margin-top:5px;">
-      Two-role PHP app (User/Pharmacy) with image uploads, quotes, and email notifications.
-    </p>
-  </div>
-
-  <!-- Project 2 -->
-  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:#1e1e2f; width:300px; color:white; text-align:center; padding:10px;">
-    <img src="https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif" width="300" alt="Transport Project" /><br/>
-    <strong>🚍 Public Transport Optimizer</strong><br/>
-    <a href="#" style="color:#FBBF24; text-decoration:none; font-weight:bold;">🔗 View Project</a><br/>
-    <p style="font-size:14px; color:#ccc; margin-top:5px;">
-      Big-data analytics platform to improve schedules, routes, and on-time performance.
-    </p>
-  </div>
-
-  <!-- Project 3 -->
-  <div style="display:inline-block; margin-right:15px; border-radius:15px; overflow:hidden; background:#1e1e2f; width:300px; color:white; text-align:center; padding:10px;">
-    <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="300" alt="Anime Story Project" /><br/>
-    <strong>🎬 AI Anime Story Generator</strong><br/>
-    <a href="#" style="color:#34D399; text-decoration:none; font-weight:bold;">🔗 View Project</a><br/>
-    <p style="font-size:14px; color:#ccc; margin-top:5px;">
-      Prompt-to-scene pipeline for short, viral AI-generated anime stories.
-    </p>
-  </div>
-
-</div>
-
-</details>
-
-
+- Connecting computer vision and AI services to useful, understandable interfaces.
+- Improving API design, validation, testing, and application reliability.
+- Building full-stack projects that solve practical problems in Sri Lanka.
 
 ---
 
-## 📈 GitHub Snapshot
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=janidukalhara&show_icons=true&rank_icon=github&hide_border=true&theme=radical" height="150" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=janidukalhara&hide_border=true&theme=radical" height="150" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janidukalhara&layout=compact&hide_border=true&theme=radical" height="150" />
-</p>
+### Let's build something useful.
 
----
+Have a role, project, or idea that fits my work? I'd love to hear about it.
 
-## 🧩 Fun Section: Spinning Rubik's Cube
-<p align="center">
-  <img src="https://www.picgifs.com/graphics/r/rubiks-cube/animaatjes-rubiks-cube-7217468.gif" width="250" alt="Spinning Rubik Cube"/>
-</p>
-<p align="center" style="font-style:italic; color:#888;">
-  Sometimes solving problems is like solving a Rubik's Cube—fun, challenging, and satisfying! 😄
-</p>
+**[janidukalhara99@gmail.com](mailto:janidukalhara99@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/janidu-perera/)** · **[All repositories](https://github.com/janidukalhara?tab=repositories)**
 
----
-
-## 🤝 Connect with Me
-<p align="center">
-  <a href="mailto:janidukalhara99@gmail.com"><img src="https://img.shields.io/badge/Email-Message%20me-ef4444?logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/janidu-perera/"><img src="https://img.shields.io/badge/LinkedIn-Message-0a66c2?logo=linkedin&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:8B5CF6,100:06B6D4" />
-</p>
+<p><sub>Based in Sri Lanka · Curious about the whole stack.</sub></p>
