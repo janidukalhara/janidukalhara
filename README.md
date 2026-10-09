@@ -1,18 +1,23 @@
 <p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Janidu Kalhara — Full-Stack Software Engineer and AI/ML Enthusiast. Animated neon header.">
+</p>
+
+<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-    <img src="assets/header-dark.svg" width="100%" alt="Janidu Kalhara — Full-Stack Software Engineer and AI/ML Enthusiast. Building useful software, from interface to intelligence.">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/typing-static.png">
+    <img src="assets/typing.gif" width="820" alt="Full-Stack Software Engineer · React / TypeScript / Node.js · Computer Vision + AI Enthusiast">
   </picture>
 </p>
 
 <p align="center">
-  <a href="#selected-projects">Selected projects</a> &nbsp; / &nbsp;
-  <a href="#my-toolkit">My toolkit</a> &nbsp; / &nbsp;
-  <a href="mailto:janidukalhara99@gmail.com">Email me</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/janidu-perera/">LinkedIn</a>
+  <a href="mailto:janidukalhara99@gmail.com"><img src="assets/email.svg" width="140" alt="Email Janidu"></a>
+  <a href="https://www.linkedin.com/in/janidu-perera/"><img src="assets/linkedin.svg" width="140" alt="Connect on LinkedIn"></a>
+  <a href="#selected-projects"><img src="assets/projects.svg" width="196" alt="Explore my projects"></a>
 </p>
 
-## Hi, I'm Janidu.
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Behind the code
 
 <img align="right" src="assets/janidu.jpg" width="132" alt="Portrait of Janidu Kalhara">
 
@@ -29,7 +34,9 @@ My projects span computer vision, prescription workflows, e-commerce, and sustai
 
 ## Selected projects
 
-Explore the code, the problem, and the implementation.
+<img src="assets/divider.svg" width="100%" alt="">
+
+**Ideas turned into working code.** Computer vision, full-stack products, and tools for real problems.
 
 <table>
 <tr>
@@ -96,13 +103,25 @@ My digital Vesak experience · **1st place, ESU Digital Vesak Lantern Competitio
 
 ## My toolkit
 
-| Area | Technologies I use |
-| :--- | :--- |
-| **Interfaces** | React, Next.js, TypeScript, JavaScript, Tailwind CSS |
-| **APIs & applications** | Node.js, Express, Python, FastAPI, PHP, Laravel, C# / .NET |
-| **Data** | PostgreSQL, MySQL, MongoDB, SQL Server, Drizzle ORM |
-| **AI integration** | YOLO, OpenCV, OCR/NLP workflows, Gemini API |
-| **Development & design** | Git, GitHub, Postman, Figma, Vite |
+<p align="center"><b>THE STACK BEHIND THE PROJECTS</b></p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="assets/tech-stack.svg" width="420" alt="React, Next.js, TypeScript, JavaScript, Tailwind, Node.js, Express, Python, FastAPI, PHP, Laravel, C#, .NET, PostgreSQL, MySQL, MongoDB, Git, GitHub, Figma, and Vite">
+  </a>
+</p>
+
+<p align="center">
+  <b>Frontend</b> · React / Next.js / TypeScript / Tailwind<br>
+  <b>Backend</b> · Node.js / Express / FastAPI / Laravel / .NET<br>
+  <b>Data &amp; AI</b> · SQL / MongoDB / YOLO / OpenCV / Gemini
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## GitHub at a glance
+
+<a href="https://github.com/janidukalhara?tab=repositories"><img src="assets/github-snapshot.svg" width="100%" alt="Public GitHub repository snapshot on 9 October 2026: 10 public repositories; TypeScript is the primary language of 5 repositories, JavaScript of 3, and Java of 1."></a>
+
+<sub>A dated snapshot of public repositories. Explore the profile's contribution calendar for current activity.</sub>
 
 ## What I'm focused on
 
@@ -110,7 +129,7 @@ My digital Vesak experience · **1st place, ESU Digital Vesak Lantern Competitio
 - Improving API design, validation, testing, and application reliability.
 - Building full-stack projects that solve practical problems in Sri Lanka.
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ### Let's build something useful.
 
@@ -118,4 +137,4 @@ Have a role, project, or idea that fits my work? I'd love to hear about it.
 
 **[janidukalhara99@gmail.com](mailto:janidukalhara99@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/janidu-perera/)** · **[All repositories](https://github.com/janidukalhara?tab=repositories)**
 
-<p><sub>Based in Sri Lanka · Curious about the whole stack.</sub></p>
+<p align="center"><sub>Built with curiosity. Powered by code. Made in Sri Lanka. 🇱🇰</sub></p>

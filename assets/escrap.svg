@@ -1,8 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="64" viewBox="0 0 520 64" role="img" aria-labelledby="title desc">
-<title id="title">eScrap-Link</title><desc id="desc">Circular Economy</desc>
-<rect width="520" height="64" rx="12" fill="#101b2c"/>
-<rect x="0" y="12" width="3" height="40" rx="1.5" fill="#f2ce89"/>
-<text x="20" y="38" fill="#f2ce89" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing=".6">05 / CIRCULAR ECONOMY</text>
-
-<g transform="translate(466 13) scale(.9)" fill="none" stroke="#f2ce89" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="22" height="22" rx="4"/><path d="M15 2v7M25 2v7M15 31v7M25 31v7M2 15h7M2 25h7M31 15h7M31 25h7"/><rect x="15" y="15" width="10" height="10" rx="2"/></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="120" viewBox="0 0 520 120" role="img" aria-labelledby="title"><title id="title">CIRCULAR ECONOMY</title><style>
+text{font-family:Arial,Helvetica,sans-serif}
+.float{animation:float 5s ease-in-out infinite}.float2{animation:float 6s ease-in-out -2s infinite}
+.dash{animation:dash 14s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}
+.scan{animation:scan 4s ease-in-out infinite}.shine{animation:shine 7s linear infinite}
+.bars{transform-box:fill-box;transform-origin:bottom;animation:bars 3s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px)}}
+@keyframes dash{to{stroke-dashoffset:-480}}
+@keyframes pulse{50%{opacity:.45}}
+@keyframes scan{50%{transform:translateY(35px)}}
+@keyframes shine{from{transform:translateX(-900px)}to{transform:translateX(1150px)}}
+@keyframes bars{50%{transform:scaleY(.5)}}
+@media(prefers-reduced-motion:reduce){.float,.float2,.dash,.pulse,.scan,.shine,.bars{animation:none}}
+</style><rect x="1" y="1" width="518" height="118" rx="15" fill="#080c19" stroke="#28304b"/><path class="dash" d="M15 118h490" stroke="#ffd384" stroke-width="2" stroke-dasharray="55 90"/><text x="24" y="43" fill="#ffd384" font-size="12" letter-spacing="2">PROJECT / 05</text><text x="24" y="78" fill="#e7ecff" font-size="18" font-weight="700">CIRCULAR ECONOMY</text><g fill="none" stroke="#ffd384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g class="pulse"><rect x="426" y="36" width="45" height="45" rx="7"/><path d="M437 24v12M458 24v12M437 81v12M458 81v12M414 47h12M414 69h12M471 47h12M471 69h12"/><rect x="438" y="48" width="21" height="21" rx="3"/></g></g></svg>

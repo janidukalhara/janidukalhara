@@ -2,14 +2,18 @@
 
 This repository powers Janidu Kalhara's GitHub profile. The design uses GitHub Flavored Markdown, supported HTML, and local SVG assets. It does not require a web framework or a deployment service.
 
-## Design
+## October 2026 animated redesign
 
-- Navy, cyan, and restrained violet accents, with separate light and dark hero artwork selected by a `picture` element.
-- Original, unedited portrait supplied by Janidu.
-- A decorative SVG orbit with a `prefers-reduced-motion` override. Essential information never depends on animation.
-- Six public project cards, readable descriptions, and working repository destinations.
-- Native text repeats essential information for accessibility and narrow screens; all images have alt text.
-- Local assets avoid availability dependencies on remote badge, GIF, and statistics services.
+The first version was too restrained for Janidu's preference. The current version uses a dark neon cyan/purple/pink palette, animated typography, moving borders, and animated project illustrations.
+
+- `assets/hero.svg`: gradient lettering, a moving highlight over the name, floating code/cube motifs, stars, and a travelling border.
+- `assets/typing.gif`: a locally generated type/delete animation cycling through three role lines. A static PNG is selected for reduced-motion preferences.
+- Six project illustrations animate scanning, heartbeat traces, floating shapes, bar charts, and circuit details.
+- `assets/divider.svg` and the social buttons add smaller supporting animations.
+- Technology logos are from Skill Icons and stored locally in `assets/tech-stack.svg` for reliable display. See `skill-icons-LICENSE.txt` for the upstream license. Text lists provide an accessible alternative.
+- `assets/github-snapshot.svg` contains a dated, real public-repository snapshot, not invented contribution or streak data. Refresh it when needed; it is not a live widget.
+- Run `python scripts/generate_visuals.py` with Pillow installed to regenerate the original motion assets. The icon board and dated repository snapshot are maintained separately. The script needs DejaVu Sans Mono on Linux or Consolas on Windows.
+- SVG animations stop under `prefers-reduced-motion: reduce`. The main name, project labels, and contact destinations remain readable without animation.
 
 ## Edit the profile
 
@@ -31,6 +35,15 @@ This repository powers Janidu Kalhara's GitHub profile. The design uses GitHub F
 | OEH Traders | [Backend](https://github.com/janidukalhara/OEH-TRADERS/blob/main/backend/server.py), frontend tree | Product, account, cart, and quotation models support the summary. |
 
 Education, availability, and the Digital Vesak award use information supplied by Janidu. The email and LinkedIn destination were retained from his previous profile. Private repositories were not linked or made public. Digital Vesak is linked to the public demo previously supplied by Janidu.
+
+## User-provided video references
+
+The descriptions of both videos were retrieved directly from their public YouTube pages. Full audiovisual playback was not available, so no claim is made of watching them end-to-end. No vidIQ credits were spent.
+
+- [Uday Dot Ai tutorial](https://www.youtube.com/watch?v=JEFOzaeEJaw): introduction, technology icons, social links, stats cards, and activity graphics.
+- [BrainHuntclub Short](https://www.youtube.com/shorts/kdEUUcpdY-I): recommends Readme Typing SVG, Shields.io, skill/project sections, GitHub stats, and streak tools.
+
+This design uses original local animation assets to apply the requested visual direction. It retains accurate project information. It does not claim that repository-language counts measure programming proficiency.
 
 ## Research references
 

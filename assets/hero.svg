@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="354" viewBox="0 0 1120 354" role="img" aria-labelledby="title"><title id="title">Janidu Kalhara — Full-Stack Software Engineer and AI/ML Enthusiast</title><style>
+text{font-family:Arial,Helvetica,sans-serif}
+.float{animation:float 5s ease-in-out infinite}.float2{animation:float 6s ease-in-out -2s infinite}
+.dash{animation:dash 14s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}
+.scan{animation:scan 4s ease-in-out infinite}.shine{animation:shine 7s linear infinite}
+.bars{transform-box:fill-box;transform-origin:bottom;animation:bars 3s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px)}}
+@keyframes dash{to{stroke-dashoffset:-480}}
+@keyframes pulse{50%{opacity:.45}}
+@keyframes scan{50%{transform:translateY(35px)}}
+@keyframes shine{from{transform:translateX(-900px)}to{transform:translateX(1150px)}}
+@keyframes bars{50%{transform:scaleY(.5)}}
+@media(prefers-reduced-motion:reduce){.float,.float2,.dash,.pulse,.scan,.shine,.bars{animation:none}}
+</style><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101127"/><stop offset=".5" stop-color="#080c19"/><stop offset="1" stop-color="#10233a"/></linearGradient>
+<linearGradient id="neon"><stop stop-color="#56e8f2"/><stop offset=".5" stop-color="#c0acff"/><stop offset="1" stop-color="#fc82cd"/></linearGradient>
+<linearGradient id="shine"><stop stop-color="white" stop-opacity="0"/><stop offset=".5" stop-color="white" stop-opacity=".65"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#a56bff" stop-opacity=".28"/><stop offset="1" stop-color="#a56bff" stop-opacity="0"/></radialGradient>
+<clipPath id="name"><text x="560" y="183" font-size="73" font-weight="800" letter-spacing="-2" text-anchor="middle">JANIDU KALHARA</text></clipPath>
+</defs>
+<rect width="1120" height="354" rx="22" fill="url(#bg)"/>
+<ellipse cx="560" cy="140" rx="510" ry="185" fill="url(#glow)"/>
+<circle class="pulse" style="animation-delay:-0s" cx="30" cy="24" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-1s" cx="167" cy="103" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-2s" cx="304" cy="182" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-3s" cx="441" cy="261" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-4s" cx="578" cy="30" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-0s" cx="715" cy="109" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-1s" cx="852" cy="188" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-2s" cx="989" cy="267" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-3s" cx="66" cy="36" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-4s" cx="203" cy="115" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-0s" cx="340" cy="194" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-1s" cx="477" cy="273" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-2s" cx="614" cy="42" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-3s" cx="751" cy="121" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-4s" cx="888" cy="200" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-0s" cx="1025" cy="279" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-1s" cx="102" cy="48" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-2s" cx="239" cy="127" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-3s" cx="376" cy="206" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-4s" cx="513" cy="285" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-0s" cx="650" cy="54" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-1s" cx="787" cy="133" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-2s" cx="924" cy="212" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-3s" cx="1061" cy="291" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-4s" cx="138" cy="60" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-0s" cx="275" cy="139" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-1s" cx="412" cy="218" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-2s" cx="549" cy="297" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-3s" cx="686" cy="66" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-4s" cx="823" cy="145" r="1.45" fill="#56e8f2" opacity=".6"/><circle class="pulse" style="animation-delay:-0s" cx="960" cy="224" r="1.0" fill="#ad83ff" opacity=".6"/><circle class="pulse" style="animation-delay:-1s" cx="37" cy="303" r="1.45" fill="#56e8f2" opacity=".6"/>
+<path d="M20 21h1080v312H20z" fill="none" stroke="#253049" stroke-width="1"/>
+<path class="dash" d="M20 21h1080v312H20z" fill="none" stroke="url(#neon)" stroke-width="2" stroke-dasharray="100 460"/>
+<text x="560" y="72" text-anchor="middle" fill="#56e8f2" font-size="14" letter-spacing="5">HELLO WORLD / I'M</text>
+<text x="560" y="183" text-anchor="middle" fill="url(#neon)" font-size="73" font-weight="800" letter-spacing="-2">JANIDU KALHARA</text>
+<g clip-path="url(#name)"><rect class="shine" x="0" y="98" width="160" height="105" fill="url(#shine)" transform="skewX(-15)"/></g>
+<text x="560" y="231" text-anchor="middle" fill="#bfcbe4" font-size="21" letter-spacing="2">CODE WITH PURPOSE. BUILD WITH CURIOSITY.</text>
+<rect x="383" y="266" width="354" height="34" rx="17" fill="#142134" stroke="#28435d"/>
+<circle class="pulse" cx="424" cy="283" r="4" fill="#56e8f2"/>
+<text x="444" y="289" fill="#bfeff2" font-size="13" letter-spacing="1">SRI LANKA / OPEN TO OPPORTUNITIES</text>
+<g class="float" fill="none" stroke="#56e8f2" stroke-width="2" opacity=".8"><path d="M73 120l-22 22 22 22M105 120l22 22-22 22M94 110l-13 64"/></g>
+<g class="float2" fill="none" stroke="#ad83ff" stroke-width="1.5" opacity=".8"><path d="M1016 108l35 20v40l-35 20-35-20v-40zM981 128l35 20 35-20M1016 148v40"/></g>
+<path d="M70 318Q300 278 560 316T1050 318" fill="none" stroke="#56e8f2" opacity=".25"/>
+<path class="dash" d="M70 318Q300 278 560 316T1050 318" fill="none" stroke="#56e8f2" stroke-width="2" stroke-dasharray="35 140"/>
+</svg>
