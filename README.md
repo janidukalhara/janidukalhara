@@ -2,12 +2,7 @@
   <img src="assets/hero.svg" width="100%" alt="Janidu Kalhara — Full-Stack Software Engineer and AI/ML Enthusiast. Animated neon header.">
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/typing-static.png">
-    <img src="assets/typing.gif" width="820" alt="Full-Stack Software Engineer · React / TypeScript / Node.js · Computer Vision + AI Enthusiast">
-  </picture>
-</p>
+
 
 <p align="center">
   <a href="mailto:janidukalhara99@gmail.com"><img src="assets/email.svg" width="140" alt="Email Janidu"></a>
@@ -19,18 +14,37 @@
 
 ## Behind the code
 
-<img align="right" src="assets/janidu.jpg" width="132" alt="Portrait of Janidu Kalhara">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/about-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/about-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
+  <img src="assets/about-light.svg" width="100%" alt="Janidu Kalhara's animated profile terminal: portrait morphing into React, Python, and code symbols beside qualifications, skills, and contact details.">
+</picture>
 
-I'm a software engineering graduate based in **Sri Lanka**, building web applications that connect thoughtful interfaces, practical backend systems, and AI.
+<details>
+<summary><b>About me &amp; my toolkit</b> — readable text version</summary>
+
+I'm **Janidu Kalhara**, a software engineering graduate from **Sri Lanka**. I build full-stack applications with thoughtful interfaces, practical APIs, and AI features.
 
 **BSc (Hons) Computer Science (Software Engineering) — First Class**  
 Kingston University, UK · via ESOFT, Sri Lanka
 
 My projects span computer vision, prescription workflows, e-commerce, and sustainability. I enjoy taking an idea through the whole stack: **interface → API → data → useful results**.
 
+| Focus | Technologies |
+| :--- | :--- |
+| Languages | TypeScript, JavaScript, Python, C#, PHP |
+| Frontend | React, Next.js, Tailwind CSS |
+| Backend | Node.js, Express, FastAPI, Laravel, .NET |
+| Data | PostgreSQL, MySQL, MongoDB |
+| AI integrations | YOLO, OpenCV, OCR/NLP, Gemini |
+| Tools | Git, GitHub, Postman, Figma |
+
 **Open to software engineering internships, junior developer roles, and collaborations.**
 
-<br clear="right">
+[Email](mailto:janidukalhara99@gmail.com) · [LinkedIn](https://www.linkedin.com/in/janidu-perera/) · [GitHub](https://github.com/janidukalhara)
+
+</details>
 
 ## Selected projects
 
@@ -101,22 +115,6 @@ My digital Vesak experience · **1st place, ESU Digital Vesak Lantern Competitio
 
 </details>
 
-## My toolkit
-
-<p align="center"><b>THE STACK BEHIND THE PROJECTS</b></p>
-<p align="center">
-  <a href="https://skillicons.dev"><img src="assets/tech-stack.svg" width="420" alt="React, Next.js, TypeScript, JavaScript, Tailwind, Node.js, Express, Python, FastAPI, PHP, Laravel, C#, .NET, PostgreSQL, MySQL, MongoDB, Git, GitHub, Figma, and Vite">
-  </a>
-</p>
-
-<p align="center">
-  <b>Frontend</b> · React / Next.js / TypeScript / Tailwind<br>
-  <b>Backend</b> · Node.js / Express / FastAPI / Laravel / .NET<br>
-  <b>Data &amp; AI</b> · SQL / MongoDB / YOLO / OpenCV / Gemini
-</p>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
 ## GitHub at a glance
 
 <a href="https://github.com/janidukalhara?tab=repositories"><img src="assets/github-snapshot.svg" width="100%" alt="Public GitHub repository snapshot on 9 October 2026: 10 public repositories; TypeScript is the primary language of 5 repositories, JavaScript of 3, and Java of 1."></a>
@@ -138,3 +136,12 @@ Have a role, project, or idea that fits my work? I'd love to hear about it.
 **[janidukalhara99@gmail.com](mailto:janidukalhara99@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/janidu-perera/)** · **[All repositories](https://github.com/janidukalhara?tab=repositories)**
 
 <p align="center"><sub>Built with curiosity. Powered by code. Made in Sri Lanka. 🇱🇰</sub></p>
+
+## Every commit counts
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/janidukalhara/janidukalhara/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/janidukalhara/janidukalhara/output/github-snake.svg" width="100%" alt="Animated snake eating the squares of my GitHub contribution calendar.">
+</picture>
+
+<p align="center"><sub>My contribution graph, in motion · refreshed every 12 hours.</sub></p>

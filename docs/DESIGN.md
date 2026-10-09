@@ -7,13 +7,28 @@ This repository powers Janidu Kalhara's GitHub profile. The design uses GitHub F
 The first version was too restrained for Janidu's preference. The current version uses a dark neon cyan/purple/pink palette, animated typography, moving borders, and animated project illustrations.
 
 - `assets/hero.svg`: gradient lettering, a moving highlight over the name, floating code/cube motifs, stars, and a travelling border.
-- `assets/typing.gif`: a locally generated type/delete animation cycling through three role lines. A static PNG is selected for reduced-motion preferences.
+- The former standalone typing GIF has been removed from the README. The role now types inside the terminal section.
 - Six project illustrations animate scanning, heartbeat traces, floating shapes, bar charts, and circuit details.
 - `assets/divider.svg` and the social buttons add smaller supporting animations.
-- Technology logos are from Skill Icons and stored locally in `assets/tech-stack.svg` for reliable display. See `skill-icons-LICENSE.txt` for the upstream license. Text lists provide an accessible alternative.
+- The toolkit is integrated into the terminal, with a readable Markdown alternative. React and Python silhouette masks derive from Skill Icons; see `skill-icons-LICENSE.txt`.
 - `assets/github-snapshot.svg` contains a dated, real public-repository snapshot, not invented contribution or streak data. Refresh it when needed; it is not a live widget.
 - Run `python scripts/generate_visuals.py` with Pillow installed to regenerate the original motion assets. The icon board and dated repository snapshot are maintained separately. The script needs DejaVu Sans Mono on Linux or Consolas on Windows.
 - SVG animations stop under `prefers-reduced-motion: reduce`. The main name, project labels, and contact destinations remain readable without animation.
+
+## Portrait terminal and contribution snake
+
+The banner and complete selected-project section were preserved byte-for-byte in this revision, as requested.
+
+- `assets/about-{dark,light}.svg`: desktop terminal; portrait and skills on the left, system information on the right.
+- `assets/about-{dark,light}-mobile.svg`: stacked mobile composition with larger type. README picture sources select the layout and color scheme.
+- `scripts/generate_terminal.py`: deterministic generator using Pillow, NumPy, and SciPy. Run `python scripts/generate_terminal.py` from the repository root after installing `scripts/requirements-terminal.txt`. DejaVu Sans Mono is required for the code glyph.
+- `scripts/data/portrait-*.npy` and `logo-points.npy`: generated point arrays. React/Python PNGs are source alpha masks; code.png is generated. Original portrait remains in assets/janidu.jpg.
+- Portrait: 300×340 serpentine Floyd–Steinberg dithering, background mask, 60 scattered reveal groups, 94 noisy drift groups. A 3.2-second intro leads into a 14.2-second portrait → React → Python → code loop with 900 individually matched particles.
+- Reduced motion shows a still portrait and fully readable heading; no motion or third-party runtime is required for the terminal. SVGs contain no JavaScript, embedded raster images, or external fonts.
+- `.github/workflows/snake.yml` generates real contribution-calendar SVGs every 12 hours and on manual dispatch. It publishes only to the `output` branch. Both actions are pinned to commit SHAs. The built-in GITHUB_TOKEN is enough; no PAT or external deployment is required.
+- The first snake run succeeded: [workflow run](https://github.com/janidukalhara/janidukalhara/actions/runs/37931526594). Scheduled runs can be delayed by GitHub; manually run the workflow if needed.
+
+Visual direction follows Janidu's supplied terminal screenshot, setup guide, and master prompt. The [Instagram reel](https://www.instagram.com/reel/DePNFhmT8aa/) caption was accessible; audiovisual playback was not available. Only the relevant terminal and snake instructions were applied; no separate stats deployment or token setup was needed.
 
 ## Edit the profile
 
